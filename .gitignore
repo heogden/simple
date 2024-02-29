@@ -1,0 +1,9 @@
+*~
+*.aux
+*.bbl
+*.log
+*.out
+*.run.xml
+*.toc
+*.blg
+*.pdf

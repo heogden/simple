@@ -1,0 +1,27 @@
+\documentclass[a4paper,twoside]{book}
+
+\usepackage{amsfonts,amssymb,amsmath,amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+\newtheorem{theorem}{Theorem}
+
+\begin{document}
+
+\title{Some example Mathematical lecture notes}
+\author{Dr. A. Lecturer}
+
+\maketitle
+\tableofcontents
+
+\frontmatter
+\input{preface.tex}
+
+\mainmatter
+\input{01-determinant.tex}
+\input{02-variance.tex}
+
+\bibliographystyle{plain}
+\bibliography{refs}
+
+\end{document}
